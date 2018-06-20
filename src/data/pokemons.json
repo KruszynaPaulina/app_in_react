@@ -1,25 +1,31 @@
 [{
   "name": "bulbasaur",
+  "type": "grass",
   "id": 1,
   "url": "https://pokeapi.co/media/sprites/pokemon/1.png"
 }, {
   "name": "ivysaur",
+  "type": "grass",
   "id": 2,
   "url": "https://pokeapi.co/media/sprites/pokemon/2.png"
 }, {
   "name": "venusaur",
+  "type": "grass",
   "id": 3,
   "url": "https://pokeapi.co/media/sprites/pokemon/3.png"
 }, {
   "name": "charmander",
+  "type": "grass",
   "id": 4,
   "url": "https://pokeapi.co/media/sprites/pokemon/4.png"
 }, {
   "name": "charmeleon",
+  "type": "grass",
   "id": 5,
   "url": "https://pokeapi.co/media/sprites/pokemon/5.png"
 }, {
   "name": "charizard",
+  "type": "grass",
   "id": 6,
   "url": "https://pokeapi.co/media/sprites/pokemon/6.png"
 }]

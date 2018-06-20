@@ -16,14 +16,14 @@ export function getPokemon(id) {
 	}
 }
 
-export function setType(name) {
+export function setType(typepokemon) {
 	return {
 		type: SET_TYPE,
-		name
+		typepokemon
 	}
 }
 
-export function searchPokemon(searchText) {
+export function searchPokemons(searchText) {
 	return {
 		type: SEARCH_POKEMONS,
 		searchText
