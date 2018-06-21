@@ -19,10 +19,18 @@ class TypeContainer extends Component {
     render() {
         return (
             <div>
-                <select onChange={e => this.chooseType(e)}>
-                    <option value="grass">grass</option>
-                    <option value="ivysaur">ivysaur</option>
-                </select>
+                <h1 className="main__title">Type of Pokemon</h1>
+                <p className="main__text">Search Pokemon by type:</p>
+                <div className="main__input">
+                    <select onChange={e => this.chooseType(e)} className="main__input--text main__select">
+                        <option value="grass">Grass</option>
+                        <option value="poison">Poison</option>
+                        <option value="fire">Fire</option>
+                        <option value="flying">Flying</option>
+                        <option value="bug">Bug</option>
+                        <option value="water">Water</option>
+                    </select>
+                </div>
                 <PokemonList pokemons={this.props.visiblePokemons} />
             </div>
         )

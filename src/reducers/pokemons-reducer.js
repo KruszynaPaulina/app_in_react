@@ -21,7 +21,7 @@ const pokemonsReducer = function (state = initialState, action) {
             return Object.assign({}, state, {visiblePokemons: foundPokemons});
 		
 		case SET_TYPE:
-            const typePokemons = state.pokemons.filter(pokemon => pokemon.typepokemon === action.name);
+            const typePokemons = state.pokemons.filter(pokemon => pokemon.typepokemon === action.typepokemon);
             return Object.assign({}, state, {visiblePokemons: typePokemons});
 
 

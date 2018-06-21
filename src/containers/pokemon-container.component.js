@@ -20,9 +20,10 @@ class PokemonContainer extends Component {
     render() {
         return (
             <div>
-                <h1>Pokemon List</h1>
-                <div className="search text-center">
-                    <input type="text" onChange={this.search.bind(this)}/>
+                <h1 className="main__title">Pokemon List</h1>
+                <p className="main__text">Search Pokemon by name:</p>
+                <div className="main__input">
+                    <input className="main__input--text" type="text" onChange={this.search.bind(this)}/>
                 </div>
                 <PokemonList pokemons={this.props.visiblePokemons} />
             </div>

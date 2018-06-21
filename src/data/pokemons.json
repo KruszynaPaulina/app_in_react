@@ -1,31 +1,136 @@
 [{
   "name": "bulbasaur",
-  "type": "grass",
+  "typepokemon": "grass",
   "id": 1,
+  "base_experience": 64,
+  "height": 7,
+  "order": 1,
+  "weight": 69,
   "url": "https://pokeapi.co/media/sprites/pokemon/1.png"
 }, {
   "name": "ivysaur",
-  "type": "grass",
+  "typepokemon": "grass",
   "id": 2,
+  "base_experience": 142,
+  "height": 10,
+  "order": 2,
+  "weight": 130,
   "url": "https://pokeapi.co/media/sprites/pokemon/2.png"
 }, {
   "name": "venusaur",
-  "type": "grass",
+  "typepokemon": "grass",
   "id": 3,
+  "base_experience": 236,
+  "height": 20,
+  "order": 3,
+  "weight": 1000,
   "url": "https://pokeapi.co/media/sprites/pokemon/3.png"
 }, {
   "name": "charmander",
-  "type": "grass",
+  "typepokemon": "fire",
   "id": 4,
+  "base_experience": 62,
+  "height": 6,
+  "order": 5,
+  "weight": 85,
   "url": "https://pokeapi.co/media/sprites/pokemon/4.png"
 }, {
   "name": "charmeleon",
-  "type": "grass",
+  "typepokemon": "fire",
   "id": 5,
+  "base_experience": 142,
+  "height": 11,
+  "order": 6,
+  "weight": 190,
   "url": "https://pokeapi.co/media/sprites/pokemon/5.png"
 }, {
   "name": "charizard",
-  "type": "grass",
+  "typepokemon": "fire",
   "id": 6,
+  "height": 17,
+  "order": 7,
+  "base_experience": 240,
+  "weight": 905,
   "url": "https://pokeapi.co/media/sprites/pokemon/6.png"
+}, {
+  "name": "squirtle",
+  "typepokemon": "water",
+  "id": 7,
+  "base_experience": 63,
+  "height": 5,
+  "order": 10,
+  "weight": 90,
+  "url": "https://pokeapi.co/media/sprites/pokemon/7.png"
+}, {
+  "name": "wartortle",
+  "typepokemon": "water",
+  "id": 8,
+  "base_experience": 142,
+  "height": 10,
+  "order": 11,
+  "weight": 225,
+  "url": "https://pokeapi.co/media/sprites/pokemon/8.png"
+}, {
+  "name": "blastoise",
+  "typepokemon": "water",
+  "id": 9,
+  "base_experience": 239,
+  "height": 16,
+  "order": 12,
+  "weight": 855,
+  "url": "https://pokeapi.co/media/sprites/pokemon/9.png"
+}, {
+  "name": "caterpie",
+  "typepokemon": "bug",
+  "id": 10,
+  "base_experience": 39,
+  "height": 3,
+  "order": 14,
+  "weight": 29,
+  "url": "https://pokeapi.co/media/sprites/pokemon/10.png"
+}, {
+  "name": "metapod",
+  "typepokemon": "bug",
+  "id": 11,
+  "base_experience": 72,
+  "height": 7,
+  "order": 15,
+  "weight": 99,
+  "url": "https://pokeapi.co/media/sprites/pokemon/11.png"
+}, {
+  "name": "butterfree",
+  "typepokemon": "flying",
+  "id": 12,
+  "base_experience": 178,
+  "height": 11,
+  "order": 16,
+  "weight": 320,
+  "url": "https://pokeapi.co/media/sprites/pokemon/12.png"
+}, {
+  "name": "weedle",
+  "typepokemon": "poison",
+  "id": 13,
+  "base_experience": 39,
+  "height": 3,
+  "order": 17,
+  "weight": 32,
+  "url": "https://pokeapi.co/media/sprites/pokemon/13.png"
+}, {
+  "name": "kakuna",
+  "typepokemon": "poison",
+  "id": 14,
+  "base_experience": 72,
+  "height": 6,
+  "order": 18,
+  "weight": 100,
+  "url": "https://pokeapi.co/media/sprites/pokemon/14.png"
+}, {
+  "name": "beedrill",
+  "typepokemon": "poison",
+  "id": 15,
+  "base_experience": 178,
+  "height": 10,
+  "order": 19,
+  "weight": 295,
+  "url": "https://pokeapi.co/media/sprites/pokemon/15.png"
 }]
