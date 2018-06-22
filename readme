@@ -1,0 +1,17 @@
+Pokemon App (Pokedex)
+
+Technologies:
+- React
+- Webpack
+- ES6
+- Redux
+- React Router
+- Html5, Css3, Rwd
+
+Boilerplate - create-react-app
+
+Pokedex functionalities:
+- List all pokoemons
+- Search pokemons by name
+- Search pokoemons by type
+- Details of pokomon
